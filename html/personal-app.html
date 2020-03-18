@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/personal-app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="../js/jQuery-2.2.2-min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+        const ohtml = document.getElementsByTagName("html")[0];
+        const width = ohtml.clientWidth;
+        ohtml.style.fontSize = 10 * (width / 320) + "px";
+        $(function() {
+            $("#bottomBtn").click(function() {
+                $(" .ft-nav").toggleClass("moving3");
+
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+    <div class="personal-container">
+        <div class="header" id="header">
+            <a href="home-app.html" class="glyphicon glyphicon-chevron-left"></a>
+            <span>会员中心</span>
+        </div>
+        <div class="per-hd">
+            <div class="per-top clearfix">
+                <div class="hd-photo pull-left"></div>
+                <div class="hd-text pull-left">
+                    <p>username</p>
+                    <p>掌柜：是</p>
+                </div>
+                <img src="../images/personal-hd.png" alt="" class="pull-right">
+
+            </div>
+            <div class="per-bottom">
+                <ul>
+                    <li>
+                        <img src="../images/ico_user_01.png" alt="">
+                        <p>30天订单</p>
+                        <i>3</i>
+                    </li>
+                    <li>
+                        <img src="../images/ico_user_02.png" alt="">
+                        <p>积分</p>
+                        <i>0</i>
+                    </li>
+                    <li>
+                        <img src="../images/ico_user_03.png" alt="">
+                        <p>余额</p>
+                        <i>0.00</i>
+                    </li>
+                    <li>
+                        <img src="../images/ico_user_04.png" alt="">
+                        <p>红包</p>
+                        <i>0</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="myUl">
+            <li><a href="home-app.html">分销中心<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+        </ul>
+        <ul class="myUl">
+            <li><a href="">呼叫客服<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="">用户信息<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="">我的订单<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="address-app.html">收货地址<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="">我的收藏<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+        </ul>
+        <ul class="myUl">
+            <li><a href="">我的留言<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="">我的评论<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            <li><a href="">会员卡<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+
+        </ul>
+        <ul class="myUl">
+            <li><a href="">退出登录<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+        </ul>
+
+
+
+        <!-- ==========================底部=========================-->
+        <div class="footer">
+            <div class="ft-search">
+                <a href="home-app.html" class="ft-a1"></a>
+                <div class="center">
+                    <input type="text">
+                    <i></i>
+                </div>
+                <a href="#header" class="ft-a2">
+                    <img src="../images/ico_06.png" alt="">
+                    <span>TOP</span>
+                </a>
+            </div>
+            <ul class="clearfix">
+                <li><a href="">返回首页</a></li>
+                <li><a href="">购物车</a></li>
+                <li><a href="">会员中心</a></li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <p>2005-2020生鲜商城版权所有，并保留所有权利</p>
+            <p>powered by O菜龙工作室</p>
+        </div>
+
+        <!-- =======================固定导航============== -->
+        <div class="ft-nav ">
+            <ul class="clearfix ">
+                <li>
+                    <a href="home-app.html ">
+                        <i class="fa fa-home "></i>
+                        <p>首页</p>
+
+                    </a>
+                </li>
+                <li>
+                    <a href=" ">
+                        <i class="fa fa-delicious "></i>
+                        <p>分类</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href=" ">
+                        <i class="fa fa-search "></i>
+                        <p>搜索</p>
+                    </a>
+
+                </li>
+                <li class="nav-cart ">
+                    <a href="car-app.html ">
+                        <i class="fa fa-shopping-cart "></i>
+                        <p>购物车</p>
+                        <span>0</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="personal-app.html ">
+                        <i class="fa fa-user-circle-o "></i>
+                        <p>会员中心</p>
+                    </a>
+                    <li class="bottomBtn" id="bottomBtn">
+                        <i class="fa fa-mail-reply"></i>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+.header{
+    width: 100%;
+    height:57px ;
+    .hd-container{
+      
+        height: 57px;
+        background-color: #212121;
+        margin: 0 auto;
+        position: relative;
+        img{
+            width: 200px;
+            height: 68px;
+            position: absolute;
+            top: 0;
+            left: 96px;
+            z-index: 999;
+        }
+        a{
+            display: block;
+            height: 57px;
+            line-height: 57px;
+            color: #eee;
+            position: absolute;
+            top: 0;
+            left: 315px;
+            font-size: 12px;
+        }
+    }
+}
+.register{
+    width: 100%;
+    height: 502px;
+    .register-container{
+        // width: 1200px;
+        height: 502px;
+        margin: 0 auto;
+        border-bottom: 1px solid #eee;
+        background: url("../images/loginBg1.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+        .register-content{
+            width: 382px;
+            height: 435px;
+            background-origin: content-box;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            position: absolute;
+            top:30px ;
+            right:119px ;
+            padding:21px 30px 30px;
+            .reg-hd{
+                width: 100%;
+                height: 34px;
+                span{
+                    color: #323232;
+                    font-weight: 300;
+                    &:nth-child(1){
+                        font-size: 18px;
+                        float: left;
+                       
+                    }
+                    &:nth-child(2){
+                        float: right;
+                        font-size: 12px;
+                        a{
+                            text-decoration:underline;
+                            color: #323232;
+                        }
+
+                    }
+                }
+            }
+            .userName,.userPassword,.userEmail,.userPassword-1{
+                width: 100%;
+                height: 40px;
+                border: 1px solid #ccc;
+                margin-top: 24px;
+                position: relative;
+               
+                
+                input{
+                    width: 100%;
+                    height: 26px;
+                    border: none;
+                    outline: none;
+                    padding-left:15px;
+                    position: absolute;
+                    top: 6px;
+                    left: 0; 
+                   
+
+                }
+                
+               
+                
+            }
+            .userName{
+                margin-top: 2px;
+            }
+           
+            .tips{
+                width: 100%;
+                height: 66px;
+                padding: 26px 0;
+                font-size: 12px;
+                overflow: hidden;
+               
+                input{
+                   
+                    vertical-align: text-bottom;
+                    margin: 0;
+                }
+                a{
+                    color: blue;
+                }
+            }
+            .reg-btn{
+                width: 100%;
+                height: 49px;
+                border-radius: 4px;
+                background-color: #08c761;
+                a{
+                    color: #fff;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 50px;
+                    text-align: center;
+                }
+            }
+            
+          
+           
+        }
+    }
+}

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/home-app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="../js/jQuery-2.2.2-min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script>
+        const ohtml = document.getElementsByTagName("html")[0];
+        const width = ohtml.clientWidth;
+        ohtml.style.fontSize = 10 * (width / 320) + "px";
+
+
+        $(function() {
+            $("#mybtn").click(function() {
+                $(".app-container").toggleClass("moving2");
+                $(".homeDrop").toggleClass("moving1");
+            })
+        })
+        $(function() {
+            $("#bottomBtn").click(function() {
+                $(" .ft-nav").toggleClass("moving3");
+
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!--=============================== 头部 =========================-->
+        <div class="header" id="header">
+            <div class="hd-logo-out">
+                <div class="hd-logo">
+                    <a href="#" class="lg-menu" id="mybtn"></a>
+
+                    <span>生鲜商城</span>
+                    <a href="car-app.html " class="lg-car "></a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="hd-banner ">
+                <ul class="clearfix ">
+                    <li><img src="../images/1457813020818820425.jpg " alt=" "></li>
+                </ul>
+                <ol>
+                    <li></li>
+                </ol>
+            </div>
+            <div class="hd-search ">
+                <input type="text " placeholder="搜索本站商品 ">
+                <a href=" " class="search-btn "></a>
+            </div>
+
+        </div>
+
+        <!--================================= 主体=========================== -->
+        <div class="app-content ">
+            <!-- ========导航======== -->
+            <div class="myNav ">
+                <ul class="clearfix ">
+                    <li>
+                        <a href=" ">
+                            <img src="../images/1443584338752549142.png " alt=" ">
+                            <span>全部分类</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" ">
+                            <img src="../images/1448075935109557161.png " alt=" ">
+                            <span>帮助中心</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="personal-app.html ">
+                            <img src="../images/1443584373727011961.png " alt=" ">
+                            <span>个人中心</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" ">
+                            <img src="../images/1443586488909704319.png " alt=" ">
+                            <span>分销中心</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" ">
+                            <img src="../images/1443586300343329180.png " alt=" ">
+                            <span>联系我们</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" ">
+                            <img src="../images/1443585779204202237.png " alt=" ">
+                            <span>团购</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" ">
+                            <img src="../images/1443586061863736586.png " alt=" ">
+                            <span>积分商城</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="car-app.html ">
+                            <img src="../images/1443584408064043342.png " alt=" ">
+                            <span>购物车</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--  ========= 特色市场 =======-->
+            <div class="feature clearfix ">
+                <div class="feature-hd ">
+                    <i></i>
+                    <span>特色市场</span>
+                </div>
+                <div class="f-pic clearfix ">
+                    <div class="pic-l pull-left ">
+                        <a href="details-app.html "> <img src="../images/1449014605524349143.jpg " alt=" "></a>
+                        <a href="details-app.html "> <img src="../images/1449014633204150477.jpg " alt=" "></a>
+                    </div>
+                    <div class="pic-r pull-right ">
+                        <a href="details-app.html "> <img src="../images/1457813429601574062.jpg " alt=" "></a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--========== 热门市场 =======-->
+            <div class="hot ">
+                <div class="hot-hd ">
+                    <i></i>
+                    <span>热门市场</span>
+                </div>
+                <div class="hot-pro ">
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/1449017754317369153.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "> <img src="../images/1449017725192980023.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "> <img src="../images/1449017734025885281.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/1449017780762813247.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "> <img src="../images/1449017705247505261.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "> <img src="../images/1449017744088348985.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "> <img src="../images/1449017763165246328.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/1449017772357575701.jpg " alt=" "></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "> <img src="../images/1449017715707894167.jpg " alt=" "></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--========== 精品推荐 ======-->
+            <div class="recommend ">
+                <div class="hd clearfix ">
+                    <i></i>
+                    <span>精品推荐</span>
+                    <a class="pull-right "></a>
+
+
+                </div>
+                <div class="pro ">
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/49_thumb_G_1448162819357.jpg " alt=" "></a>
+                            <p>￥0</p>
+                            <span>1分钱支付测试商品</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/16_thumb_G_1448947194349.jpg " alt=" "></a>
+                            <p>￥19</p>
+                            <span>52度茅台集团国隆双喜酒..</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/30_thumb_G_1448948662661.jpg " alt=" "></a>
+                            <p>￥9</p>
+                            <span>泰国菠萝蜜16-18斤...</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ==========生鲜食品 =====-->
+            <div class="fresh ">
+                <div class="hd clearfix ">
+                    <i></i>
+                    <span>生鲜食品</span>
+                    <a class="pull-right "></a>
+                </div>
+                <div class="pro ">
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/48_thumb_G_1448943988607.jpg " alt=" "></a>
+                            <p>￥88</p>
+                            <span>新疆巴尔鲁克生鲜牛排眼肉...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/47_thumb_G_1448946213633.jpg " alt=" "></a>
+                            <p>￥108</p>
+                            <span>日本蒜蓉粉丝扇贝270克...
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/11_thumb_G_1448944388914.jpg " alt=" "></a>
+                            <p>￥26</p>
+                            <span>澳洲进口120天谷饲牛仔...
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/10_thumb_G_1448944572962.jpg " alt=" "></a>
+                            <p>￥88</p>
+                            <span>内蒙新鲜牛肉1斤清真生鲜...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/9_thumb_G_1448944791708.jpg " alt=" "></a>
+                            <p>￥168</p>
+                            <span>爱食派内蒙古呼伦贝尔冷冻...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/8_thumb_G_1448945032585.jpg " alt=" "></a>
+                            <p>￥125</p>
+                            <span>五星眼肉牛排套餐8片装原...</span>
+                        </div>
+                    </div>
+                    <ul class="clearfix ">
+                        <li><a href=" ">精品肉类</a></li>
+                        <li><a href=" ">海鲜水产</a></li>
+                        <li><a href=" ">蛋制品</a></li>
+                        <li><a href=" ">叶菜类</a></li>
+                        <li><a href=" ">根茎类</a></li>
+                        <li><a href=" ">茄果类</a></li>
+                        <li><a href=" ">菌菇类</a></li>
+                        <li><a href=" ">进口生鲜</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- ==========酒水饮料============ -->
+            <div class="drink ">
+                <div class="hd clearfix ">
+                    <i></i>
+                    <span>酒水饮料</span>
+                    <a class="pull-right "></a>
+                </div>
+                <div class="pro ">
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/51_thumb_G_1448946466261.jpg " alt=" "></a>
+                            <p>￥26</p>
+                            <span>人头马CLUB特优香槟干...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/50_thumb_G_1448946542088.jpg " alt=" "></a>
+                            <p>￥20</p>
+                            <span>Johnnie Walk...
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/46_thumb_G_1448946598227.jpg " alt=" "></a>
+                            <p>￥28</p>
+                            <span>双响炮洋酒JimBeam...
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/45_thumb_G_1448946661697.jpg " alt=" "></a>
+                            <p>￥18</p>
+                            <span>深蓝伏特加巴维兰利口酒送...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/22_thumb_G_1448946729918.jpg " alt=" "></a>
+                            <p>￥59</p>
+                            <span>芝华士12年苏格兰威士...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/21_thumb_G_1448946793103.jpg " alt=" "></a>
+                            <p>￥46</p>
+                            <span>西夫拉姆进口洋酒小酒版</span>
+                        </div>
+                    </div>
+                    <ul class="clearfix ">
+                        <li><a href=" ">白酒</a></li>
+                        <li><a href=" ">葡萄酒</a></li>
+                        <li><a href=" ">洋酒</a></li>
+                        <li><a href=" ">啤酒</a></li>
+                        <li><a href=" ">其他酒品</a></li>
+                        <li><a href=" ">饮料/水</a></li>
+                        <li><a href=" ">红酒</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- ==========粮油副食============ -->
+            <div class="foods ">
+                <div class="hd clearfix ">
+                    <i></i>
+                    <span> 粮油副食</span>
+                    <a class="pull-right "></a>
+                </div>
+                <div class="pro ">
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/29_thumb_G_1448947631664.jpg " alt=" "></a>
+                            <p>￥12</p>
+                            <span>融氏纯玉米胚芽油5l桶
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/28_thumb_G_1448947699187.jpg " alt=" "></a>
+                            <p>￥26</p>
+                            <span>橄榄玉米油5L*2桶
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/27_thumb_G_1448947771206.jpg " alt=" "></a>
+                            <p>￥156</p>
+                            <span>维纳斯橄榄菜籽油5L/桶</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/26_thumb_G_1448947825794.jpg " alt=" "></a>
+                            <p>￥45</p>
+                            <span>精炼一级大豆油5L色拉油...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/25_thumb_G_1448947875633.jpg " alt=" "></a>
+                            <p>￥12</p>
+                            <span>稻园牌稻米油粮油米糠油绿...</span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+                            <a href="details-app.html "><img src="../images/24_thumb_G_1448948023508.jpg " alt=" "></a>
+                            <p>￥9</p>
+                            <span>山西黑米农家黑米4斤</span>
+                        </div>
+                    </div>
+                    <ul class="clearfix ">
+                        <li><a href=" ">食用油</a></li>
+                        <li><a href=" ">米面杂粮</a></li>
+                        <li><a href=" ">厨房调料</a></li>
+                        <li><a href=" ">南北干货</a></li>
+                        <li><a href=" ">方便速食</a></li>
+                        <li><a href=" ">调味品</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- ==========================底部=========================-->
+        <div class="footer ">
+            <div class="ft-search ">
+                <a href="home-app.html " class="ft-a1 "></a>
+                <div class="center ">
+                    <input type="text ">
+                    <i></i>
+                </div>
+                <a href="#header " class="ft-a2 ">
+                    <img src="../images/ico_06.png " alt=" ">
+                    <span>TOP</span>
+                </a>
+            </div>
+            <ul class="clearfix ">
+                <li><a href=" ">返回首页</a></li>
+                <li><a href=" ">购物车</a></li>
+                <li><a href=" ">会员中心</a></li>
+                <li><a href=" ">联系我们</a></li>
+            </ul>
+            <p>2005-2020生鲜商城版权所有，并保留所有权利</p>
+            <p>powered by O菜龙工作室</p>
+        </div>
+
+        <!-- =======================固定导航============== -->
+        <div class="ft-nav ">
+            <ul class="clearfix ">
+                <li>
+                    <a href="home-app.html ">
+                        <i class="fa fa-home "></i>
+                        <p>首页</p>
+
+                    </a>
+                </li>
+                <li>
+                    <a href=" ">
+                        <i class="fa fa-delicious "></i>
+                        <p>分类</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href=" ">
+                        <i class="fa fa-search "></i>
+                        <p>搜索</p>
+                    </a>
+
+                </li>
+                <li class="nav-cart ">
+                    <a href="car-app.html ">
+                        <i class="fa fa-shopping-cart "></i>
+                        <p>购物车</p>
+                        <span>0</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="personal-app.html ">
+                        <i class="fa fa-user-circle-o "></i>
+                        <p>会员中心</p>
+                    </a>
+                    <li class="bottomBtn" id="bottomBtn">
+                        <i class="fa fa-mail-reply"></i>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <ul class="homeDrop">
+        <li>
+            <img src="../images/1449088788518670880.png " alt=" "><a href=" ">生鲜食品</a>
+        </li>
+        <li>
+            <img src="../images/1449088848823694266.png " alt=" "><a href="# ">酒水饮料</a>
+        </li>
+        <li> <img src="../images/1449088901458193225.png " alt=" "><a href="# ">粮油副食</a></li>
+
+        <li> <img src="../images/1449088957941770398.png " alt=" "><a href="# ">蔬菜水果</a></li>
+        <li> <img src="../images/1449089137240745101.png " alt=" "><a href="# ">休闲食品</a></li>
+        <li> <img src="../images/1449089235904530709.png " alt=" "><a href="# ">奶类食品</a></li>
+        <li> <img src="../images/1449089297229428349.png " alt=" "><a href="# ">天然干货</a></li>
+        <li> <img src="../images/1449089358084135937.png " alt=" "><a href="# ">精选茗茶</a></li>
+    </ul>
+
+
+</body>
+
+</html>

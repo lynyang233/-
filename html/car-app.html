@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/car-app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="../js/jQuery-2.2.2-min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+        const ohtml = document.getElementsByTagName("html")[0];
+        const width = ohtml.clientWidth;
+        ohtml.style.fontSize = 10 * (width / 320) + "px";
+    </script>
+</head>
+
+<body>
+    <div class="car-container">
+        <!-- ===================头================ -->
+        <div class="header" id="header">
+            <a href="home-app.html" class="glyphicon glyphicon-chevron-left"></a>
+            <span>购物车</span>
+        </div>
+        <ul class="steps clearfix">
+            <li>1.购物车列表</li>
+            <li>2.确认订单</li>
+            <li>3.购买成功</li>
+        </ul>
+        <div class="yourPro">
+            <ul>
+                <li><img src="../images/29_thumb_G_1448947631664.jpg" alt=""></li>
+                <li>
+                    <p>融氏纯玉米胚芽油5l桶</p>
+                    <i>￥12.00元&nbsp;<b>x</b>&nbsp;</i>
+                    <div>
+
+                        <span class="glyphicon glyphicon-minus"></span>
+                        <span>1</span>
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </div>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer clearfix">
+            <span>合计:<i>￥12.00</i></span>
+            <a href="address-app.html">结算（1）</a>
+        </div>
+    </div>
+</body>
+
+</html>

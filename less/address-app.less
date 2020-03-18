@@ -1,0 +1,127 @@
+body{
+    font-size: 0.9rem !important;
+}
+.add-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ebeced;
+    .header{
+        width: 100%;
+        height: 3.2rem;
+        background-color: #09c762;
+        position: relative;
+        a{
+            display: block;
+            width: 0.9rem;
+            height:1.3333rem;
+            font-size: 1.5rem;
+            color: #ffffff;
+            position: absolute;
+            top: 1rem;
+            left: 1.3333rem;
+        }
+        span{
+            display: block;
+            width: 100%;
+            height: 3.2rem;
+            line-height: 3.2rem;
+            text-align: center;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+    }
+    .steps{
+        width: 100%;
+        height: 2.6rem;
+        background-color: #fff;
+        display: flex;
+        li{
+            width: 33.33%;
+            text-align: center;
+            height: 2.6rem;
+            line-height: 2.6rem;
+            &:nth-child(2){
+                color:#09c762 ;
+                border-bottom: 1px solid #09c762;
+            }
+        }
+    }
+    .add-1,.add-2{
+        font-size: 1rem;
+        width: 100%;
+        margin-top:1.3333rem ;
+        border: 1px solid #f0f1f2;
+        border-radius:0.4667rem ;
+        background-color: #fff;
+        padding: 0.9rem;
+        ul{
+            margin: 0;
+            width: 100%;
+            li{
+                width:100%;
+                height: 2.6333rem;
+                line-height: 2.6333rem;
+                border-bottom:1px solid #f3f3f3 ;
+                display: flex;
+                span{
+                    width: 30%;
+                  
+                    &:nth-child(2){
+                       
+                        width: 40%;
+                    }
+                }
+                input{
+                    border: none;
+                    width: 40%;
+                    
+                }
+                select{
+                    height: 60%;
+                    margin-right: 0.1667rem;
+                    align-self: center;
+                }
+            }
+        }
+    }
+    .add-1{
+        ul{
+            li{
+                a{
+                    display: block;
+                    float: left;
+                    margin:0 4% 0 1%; 
+                    width:45% ;
+                    height: 100%;
+                    background-color: #09c762;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    line-height: 2.6333rem;
+                    &:last-child{
+                        margin:0 1% 0 4%; 
+                    }
+                }
+            }
+        }
+    }
+    .add-2{
+        ul{
+            li{
+                a{
+                    display: block;
+                  
+                    margin:0 1%;
+                    width:98% ;
+                    height: 100%;
+                    background-color: #09c762;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    line-height: 2.6333rem;
+                   
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+body{
+    font-size: 0.9rem !important;
+}
+.car-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ebeced;
+    .header{
+        width: 100%;
+        height: 3.2rem;
+        background-color: #09c762;
+        position: relative;
+        a{
+            display: block;
+            width: 0.9rem;
+            height:1.3333rem;
+            font-size: 1.5rem;
+            color: #ffffff;
+            position: absolute;
+            top: 1rem;
+            left: 1.3333rem;
+        }
+        span{
+            display: block;
+            width: 100%;
+            height: 3.2rem;
+            line-height: 3.2rem;
+            text-align: center;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+    }
+    .steps{
+        width: 100%;
+        height: 2.6rem;
+        background-color: #fff;
+        display: flex;
+        li{
+            width: 33.33%;
+            text-align: center;
+            height: 2.6rem;
+            line-height: 2.6rem;
+            &:first-child{
+                color:#09c762 ;
+                border-bottom: 1px solid #09c762;
+            }
+        }
+    }
+    .yourPro{
+        width: 100%;
+        margin-top: 1.0667rem;
+        border: 1px solid #dddddd;
+        border-radius:10px ;
+        background-color: #fff;
+        ul{
+            display: flex;
+            li{
+                width: 25%;
+                padding:0.6667rem 0 0 1.3333rem ;
+                img{
+                    width: 80%;
+                }
+                &:nth-child(2){
+                    flex-grow: 1;
+                    p{
+                        font-weight: 600;
+                        margin:1rem 0 ;
+                    }
+                   div{
+                       margin: 0.3333rem 0 0.8333rem;
+                       width: 7.6rem;
+                       height: 2.5667rem;
+                       border: 1px solid #e3e3e3;
+                      
+                       background-color: #fafafa;
+                       float: left;
+                       span:nth-child(1), span:nth-child(3){
+                           width: 30%;
+                           display: block;
+                           line-height: 2.5667rem;
+                           text-align: center;
+                           float: left;
+                           color: #333333;
+                       }
+                       span:nth-child(2){
+                           display: block;
+                           width: 40%;
+                           background-color: #fff;
+                           height: 100%;
+                           line-height: 2.5667rem;
+                           float: left;
+                           text-align: center;
+                           color: #000000;
+                       }
+                       
+                   }
+                   i{
+                    color: #09c762;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    float: left;
+                   line-height: 3.3333rem;
+                    b{
+                        color: #333333;
+                        font-weight: 400;
+                    }
+                    }
+                }
+                &:nth-child(3){
+                    padding:1.8rem 1.9333rem 0 0;
+                    a{
+                        display: block;
+                        width: 1.6rem;
+                        height:1.6rem ;
+                        background: url("../images/ico_08.png") no-repeat center center;
+                        background-size: 60% 60%;
+                        background-color: #cccccc;
+                        border-radius: 50%;
+                        float: right;
+                        
+                    }
+
+                }
+               
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        height: 4rem;
+        background-color: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        span{
+            padding-left: 1.0333rem;
+            line-height:  4rem ;
+            i{
+                color: #09c762;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+        }
+        a{
+            float: right;
+            display: block;
+            width: 40%;
+            height: 4rem ;
+            line-height:  4rem ;
+            font-size: 1.2rem;
+            text-align: center;
+            color: #ffffff;
+            background-color:  #09c762;
+        }
+    }
+}
