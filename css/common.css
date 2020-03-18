@@ -1,0 +1,16 @@
+.myActive {
+    background-color: #1e9245;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.container {
+    width: 1200px !important;
+    padding: 0 !important;
+}
+
+body {
+    min-width: 1200px;
+}

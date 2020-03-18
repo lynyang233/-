@@ -1,0 +1,83 @@
+.order-out {
+  background-color: #f8f8f8;
+}
+.order-out .order-in {
+  margin: 30px auto 50px;
+  border: 1px solid #cccccc;
+  padding: 25px 37px !important;
+  background-color: #fff;
+}
+.order-out .order-in .od-hd {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+.order-out .order-in div {
+  margin-top: 35px ;
+}
+.order-out .order-in div span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f3f3f;
+  padding-left: 15px;
+}
+.order-out .order-in div a {
+  font-size: 13px;
+  color: #0070d7;
+}
+.order-out .order-in div table {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.order-out .order-in div table tr td {
+  vertical-align: middle;
+}
+.order-out .order-in div table tr td i {
+  color: red;
+}
+.order-out .order-in .od-bd-3 table tr td:first-child {
+  text-align: center;
+}
+.order-out .order-in .od-bd-3 table tr:last-child td {
+  text-align: right;
+}
+.order-out .order-in .od-bd-5 table select {
+  border-radius: 8px;
+}
+.order-out .order-in .od-bd-5 table button {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.order-out .order-in .od-bd-5 table .odd-num {
+  width: 100px;
+  height: 20px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.order-out .order-in .od-bd-5 table .odd-text {
+  width: 500px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.order-out .order-in .od-bd-6 table tr td {
+  text-align: right;
+}
+.order-out .order-in .od-bd-6 table tr td i {
+  font-size: 16px;
+  font-weight: 600;
+}
+.order-out .order-in .mySubmit {
+  display: block;
+  width: 142px;
+  height: 44px ;
+  line-height: 44px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #f37100;
+  margin: 0 auto;
+}

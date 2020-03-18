@@ -1,0 +1,90 @@
+.footer {
+  width: 100%;
+}
+.footer .ft-contanier {
+  height: 219px;
+  margin: 0 auto;
+}
+.footer .ft-contanier .promise {
+  width: 100%;
+  height: 90px;
+}
+.footer .ft-contanier .promise li {
+  width: 25%;
+  float: left;
+}
+.footer .ft-contanier .promise li img {
+  width: 100%;
+  max-height: 150px ;
+}
+.footer .aboutus {
+  width: 100%;
+  height: 60px ;
+  padding: 0 275px  ;
+}
+.footer .aboutus li {
+  float: left;
+  width: 14.2%;
+  padding: 0 15px ;
+  font-size: 13px;
+  position: relative;
+}
+.footer .aboutus li a {
+  color: #000;
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 0 5%;
+}
+.footer .aboutus li i {
+  width: 1px;
+  height: 14px;
+  background: url("../images/border-right.png") no-repeat center center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.footer .moreInformation {
+  width: 100%;
+  height: 92px;
+  padding: 0 320px 17px;
+  font-size: 13px;
+  text-align: center;
+}
+.footer .moreInformation div:last-child {
+  margin-top: 18px;
+}
+.side {
+  width: 62px;
+  height: 245px;
+  background-color: #fff;
+  position: fixed;
+  top: 60%;
+  right: 0;
+}
+.side a {
+  display: block;
+  width: 100%;
+  height: 25%;
+  position: relative;
+  border: 1px solid #e7e7e7;
+}
+.side a:nth-child(3):hover .bigWechat {
+  display: block;
+}
+.side a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.side a .bigWechat {
+  width: 120px;
+  height: 120px;
+  top: -100%;
+  left: -182px;
+  display: none;
+}
